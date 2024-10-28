@@ -56,13 +56,17 @@ const TreeCard = ({
               alt={selectedTree?.nome}
               width={150}
               height={200}
-              className="object-cover rounded-lg opacity-75 box-shadow w-[150px] h-[200px]"
+              className="object-cover rounded-lg box-shadow w-[150px] h-[200px]"
             />
 
             <div className="w-full">
-              <p className="text-[#878585] text-sm font-medium leading-none">Tipo</p>
+              <p className="text-[#878585] text-sm font-medium leading-none">
+                Tipo
+              </p>
               <p className="font-semibold text-lg mb-2">{selectedTree?.tipo}</p>
-              <p className="text-[#878585] font-medium text-sm leading-none">Condizione</p>
+              <p className="text-[#878585] font-medium text-sm leading-none">
+                Condizione
+              </p>
               <p className="font-semibold text-lg mb-2">
                 {selectedTree?.stato}
               </p>
